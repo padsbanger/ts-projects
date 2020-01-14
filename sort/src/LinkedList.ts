@@ -54,7 +54,7 @@ export class LinkedList {
     }
     throw new Error("index out of bounds");
   }
-
+ 
   compare(leftIndex: number, rightIndex: number): boolean {
     if (!this.head) {
       return false;
